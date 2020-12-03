@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
+
+<suite name="Funcion1" parallel = "tests" thread-count ="5" > 
+<listeners>
+ <listener class-name ="Run.ILISTNERS"></listener> 
+ 
+</listeners>
+<test name="target1">
+	
+	<parameter name ="browser" value="chrome"></parameter>
+	<parameter name ="RUI" value="https://www.facebook.com/"></parameter>
+	
+	<classes>
+	
+			<class name="Run.NewTest"></class>
+			<!-- <class name="Run.registry2test"></class>	 -->	
+  </classes>
+
+ </test>
+<!--  test name="target2">
+	<parameter name ="browser" value="firefox"></parameter>
+	<parameter name ="RUI" value="https://www.target.com/"></parameter>
+	
+		<classes>
+	
+			<class name="Run.targetregstryTest"></class>
+			<class name="Run.registry2test"></class>
+				
+											
+	</classes>-->
+
+<!-- </test> -->
+
+ 
+</suite>
+

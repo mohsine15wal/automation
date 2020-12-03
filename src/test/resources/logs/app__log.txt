@@ -1,0 +1,4 @@
+INFO    2020-12-01 21:05:37,902 [main] Run.logges  - this is our first logs for use
+INFO    2020-12-01 21:06:15,765 [main] Run.logges  - this is our first logs for use
+INFO    2020-12-01 21:06:18,461 [main] Run.logges  - this is our first logs for use
+INFO    2020-12-01 21:06:20,830 [main] Run.logges  - this is our first logs for use
